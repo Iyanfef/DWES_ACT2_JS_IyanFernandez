@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<title>Ejemplo de formulario</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="style/formulario.css" />
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>	
+	</head>
+
+	<body>
+		
+		<h3>Adivina la palabra oculta</h3>
+		
+		
+
+		<form id="formulario" action="http://dwec05agl.site88.net/bienvenido.php" method="get">
+
+		
+			<div class="linea_formulario genero ">
+			<label for="genero">Dificultad</label>
+			<div class="botones ">
+		  	  <input type= "radio" name="genero" id="genero_hombre" value="Hombre" checked="checked"/><span>4 letras</span>
+		 	   <input type= "radio" name="genero" id="genero_mujer" value="Mujer" /><span>6 letras</span>
+			   <input type= "radio" name="genero" id="genero_mujer" value="Mujer" /><span>8 letras</span>
+		    </div>
+			</div>
+		
+		<div class="linea_formulario">
+			<label for="nombre">Letras</label>
+			<input type="text" name="nombre" id="nombre"   value="" />
+
+			<div class="limpia"> </div>
+		</div>  
+		
+		<div class="linea_formulario">
+			<label for="apellidos" >Palabra</label>
+			<input type="text" name="apellidos" id="apellidos" />
+						
+			<div class="limpia"> </div>
+		</div> 
+		
+
+			
+		</div>
+
+		
+		
+		
+		<div class="linea_formulario">	
+			<input type="submit" name="enviar" id="enviar" value="Nueva palabra" disabled  /> 
+			<input type="submit" name="enviar" id="enviar" value="Ver solución"    /> 
+			<input type="submit" name="enviar" id="enviar" value="Finalizar juego"  /> 
+			<div class="limpia"> </div>
+		</div>
+		
+
+		
+		<div class="linea_formulario error">
+			Porcentaje de aciertos: 50%
+		</div>
+		
+	</form>
+	
+	
+	</body>
+</html>
+
+
+
